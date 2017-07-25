@@ -85,17 +85,10 @@ function getStocks(symbol, interval, period, callback){
 
       })
       .on('done',()=>{
-        // console.log(points)
         callback(points)
       })
-
   })
-
 }
-
-searchCompany('goo', text => {
-  console.log(text)
-})
 
 function searchCompany(text, callback){
   request.get({
