@@ -158,4 +158,25 @@ app.get('/stocksForYear/:symbol', (req, mainRes) => {
 })
 
 
+[
+  {
+    q:'',
+    ans: [
+      {
+        text: '',
+        isCorrect: true
+      },
+      {
+        text: '',
+        isCorrect: false
+      },
+      {
+        text: '',
+        isCorrect: false
+      }
+    ] 
+  }
+]
+
+
 module.exports = app
